@@ -24,6 +24,9 @@
         "gos/pnctl-event-loop-emitter" : "~0.1",
         "gos/ratchet": "~0.3.5"
     },
+    "require-dev": {
+        "php-amqplib/php-amqplib": "~2.5"
+    },
     "replace" : {
         "cboden/ratchet": "~0.3.0"
     },
@@ -31,12 +34,13 @@
         "psr-4": { "Gos\\Bundle\\WebSocketBundle\\": "" }
     },
     "suggest": {
-      "ext-libevent": ">=0.0.5",
-      "ext-libev": "*",
-      "ext-zmq": "*",
-      "ext-amqp": "*",
-      "symfony/proxy-manager-bridge": "~2.3",
-      "ocramius/proxy-manager": "~1.0"
+        "ext-libevent": ">=0.0.5",
+        "ext-libev": "*",
+        "ext-zmq": "*",
+        "ext-amqp": "*",
+        "symfony/proxy-manager-bridge": "~2.3",
+        "ocramius/proxy-manager": "~1.0",
+        "php-amqplib/php-amqplib": "~2.5"
     },
     "extra": {
         "branch-alias": {
